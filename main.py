@@ -54,14 +54,14 @@ def convert_audios_to_wav(paths: list[str]):
         # If wav file already exists with the same name, skip
         if os.path.exists(output_path):
             console.log(
-                f"Wav file already exists. Skipping {audio_file_name}...",
+                f"Wav file already exists. Skipping [bold]{audio_file_name}[/bold]...",
                 style="bold yellow",
             )
             continue
 
         audio = AudioSegment.from_file(audio_file)
         audio.export(output_path, format="wav")
-        console.log(f"Converted {audio_file_name} to wav...")
+        console.log(f"Converted [bold]{audio_file_name}[/bold] to wav...")
 
     return output_paths
 
