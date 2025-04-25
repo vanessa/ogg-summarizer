@@ -4,7 +4,7 @@ from openai import OpenAI
 import os
 from rich.console import Console
 from rich.markdown import Markdown
-from rich.prompt import Prompt
+from rich.prompt import Confirm
 
 console = Console()
 client = OpenAI()
@@ -30,8 +30,8 @@ def get_audio_files_paths():
     console.log("Paths:")
     for path in result:
         console.log(f"  - [bold]{path}[/bold]")
-    prompt = Prompt.ask("Do you want to continue?")
-    if prompt != "y":
+    prompt = Confirm.ask("Do you want to continue?", default=True)
+    if not prompt:
         console.log("Exiting...")
         exit()
     return result
