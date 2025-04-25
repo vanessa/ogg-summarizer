@@ -18,3 +18,7 @@ Make sure you have `OPENAI_API_KEY` set in your environment variables.
 ```bash
 uv run main.py
 ```
+
+## Disclaimer
+
+Please don't judge the code, this was done in 15 minutes 😭
