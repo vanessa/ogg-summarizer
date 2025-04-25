@@ -1,0 +1,11 @@
+[project]
+name = "audio-transcription"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "ipython>=9.2.0",
+    "openai>=1.76.0",
+    "pydub>=0.25.1",
+    "rich>=14.0.0",
+    "speechrecognition[openai]>=3.14.2",
+]
