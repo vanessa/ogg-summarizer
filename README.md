@@ -15,7 +15,3 @@ Make sure you have `OPENAI_API_KEY` set in your environment variables.
 
 1. Add the audio files to the `audios` folder
 1. Run the script with `uv run main.py`
-
-## Disclaimer
-
-Please don't judge the code, this was done in 15 minutes 😭
