@@ -4,10 +4,12 @@ A simple script to automatically transcribe and summarize .ogg audio files (the 
 
 ## Prerequisites
 
-1. [mise](https://mise.jdx.dev/getting-started.html) (optional but recommended)
-2. Python 3.13+
-3. [uv](https://docs.astral.sh/uv/getting-started/installation/)
-4. `OPENAI_API_KEY` set in your environment variables
+1. `OPENAI_API_KEY` set in your environment variables
+1. [mise](https://mise.jdx.dev/getting-started.html) (optional, but recommended)
+
+If you don't have mise installed:
+1. Python 3.13+
+1. [uv](https://docs.astral.sh/uv/getting-started/installation/)
 
 ## Quickstart
 
