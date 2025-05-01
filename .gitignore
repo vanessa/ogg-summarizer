@@ -4,3 +4,4 @@ __pycache__
 cache
 converted
 audios/*
+.DS_Store
