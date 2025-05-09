@@ -18,3 +18,10 @@ If you don't have mise installed:
 1. Install dependencies with `uv sync`
 1. Copy the .ogg files to the `audio` folder
 1. Run the script with `uv run main.py`
+
+## Usage
+
+```bash
+python -m summarizer.main [--use-assemblyai] [--sort]
+```
+
